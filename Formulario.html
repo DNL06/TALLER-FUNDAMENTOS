@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+</head>
+<Center>
+    <br>
+<h1>REGISTRO DE MATRICULA</h1>
+<body>
+    <br>
+     <h2>Datos personales</h2> 
+</center>
+    <section>
+        <form name="Formulario" method="GET" action="procesar.php">
+         <p><label> Nombres:<input type="text" name="Nombre"></label></p>
+        <p><label> Apellidos:<input type="text" name="Apellido" ></label></p>
+
+        <p><label>Datos medicos: 
+        <select name="nA" id="nA">
+          <Option value="A+">A+</Option> 
+          <Option value="A+">A-</Option> 
+          <Option value="O+">O+</Option>
+          <Option value="O-">O-</Option>
+          <Option value="B+">B+</Option>
+          <Option value="B-">B-</Option>
+        </select></label> </p>
+
+       <p><label>de nacimiento: <input type="date" name="Fecha" value="2022- 27-04"></label> </p>
+       <p><label> Edad:<input type="text" name="Edad" ></label></p>
+       <p><label> Direcciones:<input type="text" name="Direcciones" ></label></p>
+       <p><label> Alergico a:<input type="text" name="Alergico a" ></label></p>
+<center>
+       <h2>Datos escolares</h2>
+</center>
+
+       <p> <label> Grado: 
+       <select name="n1" id="n1">
+           <option value="1">1</option>
+           <option value="2">2</option>
+           <option value="3">3</option>
+           <option value="4">4</option>
+           <option value="5">5</option>
+           <option value="6">6</option>
+           <option value="7">7</option>
+           <option value="8">8</option>
+           <option value="9">9</option>
+           <option value="10">10</option>
+           <option value="11">11</option>
+       </select></label></p>
+       <p> <label> Materia preferida:
+        <select name="n2" id="n2">
+        <option value="Matematicas">Matematicas</option>
+        <option value="Geografia"> Geografia</option>
+        <option value="Quimica"> Quimica</option>
+        <option value="Calculo">Calculo</option>
+       </select>
+</label> </p>
+<p><label> Ultimo promedio:<input type="text" name="Ultimo promedio" ></label></p>
+<p><label>Alergico a:<input type="text" name="Alergico a"></label></p>
+
+<center>
+<h2>Datos acudiente</h2>
+</center>
+
+<p><label> Nombres:<input type="text" name="Nombres"></label></p>
+<p><label> Apellidos:<input type="text" name="Apellidos" ></label></p>
+<p><label> Parentesco:
+    <select name="n3" id="n3">
+    <option value="Madre">Madre</option>
+    <option value="Padre"> Padre</option>
+    <option value="Tia">Tia</option>
+    <option value="Hermano">Hermano</option>
+    <option value="Hermana">Hermana</option>
+    <option value="Tio">Tio</option>
+    <option value="Abuela">Abuela</option>
+    <option value="Abuelo">Abuelo</option>
+</select>
+</label></p>
+<p> <label> Celular 1: <input type="text" name="Celular 1"></label> <label> Celular 2<input type="text" name="Celular 2"></label></p>
+<P> <label> Padece alguna enfermedad:<input type="radio" name="Padece alguna enfermedad"></label></p>
+<P><input type="radio" name= "padece alguna enfermeda" value= "si" checked> Si </label></p>
+<P><input type="radio" name= "padece alguna enfermedad" value= "si" >No</label></pd>  
+<P> <Label> Deporte Favorito: <input type="checkbox" name="Deporte favorito"></Label></P>
+<p><input type="checkbox" name= "Deporte favorito" value= "Futbol"> Futbol </label></p>
+<p><input type="checkbox" name= "Deporte favorito" value= "Beisbol"> Beisbol</label></p>
+<p><input type="checkbox" name= "Deporte favorito" value= "Ciclismo"> Ciclismo</label></p>
+
+        </form>
+    </section>
+
+</body>
+</html>
