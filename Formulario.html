@@ -13,10 +13,10 @@
     <div id="Container">   
     <section>
                 
-          <article>
+        <article>
     
-             <table cellspacing="0" border="2">
-                 <tr><td colspan="4">
+             <table cellspacing="0" border="1">
+                <tr><td colspan="5">
                      <header>
             
                     <center>
@@ -36,13 +36,15 @@
                    <tr>
                       <td>Nombres:</td>
                       <td>Apellidos:</td>
-                      <td></td>
+                      <td>Correo</td>
                      <td><big><strong>Datos medicos</strong></big><hr size="1px" color="black"/></td>
                     </tr>
     
                      <td><input type="text" name="nombre" maxlength="15"></td>
                      <td><input type="text" name="apellido"></td>
-                    <td></td>
+                    <td><input type="email" name="correo"></td>
+
+                    </td>
                     <td>
                      Tipo de sangre:
                      <select name="n1"  id="n1">
@@ -57,45 +59,60 @@
                     </td>
                     
                     <tr>
-                     <td>Fecha de nacimiento: <input type="date" name="fecha" id="fecha"></td>
-                     <td>Edad: <input type="number" name="edad"></td>
-                     <td>Dirreccion: <input type="direccion" name="direccion"></td>
-                     <td>Alergico a: <input style="text" name="alergico a"></td>
+                     <td>Fecha de nacimiento: </td>  
+                     <td>Edad:</td>
+                     <td>Dirección: </td>
+                     <td>Alergico a: </td>
+                    </tr>
+                    <tr>
+                        <td> <input type="date" name="fecha" id="fecha"></td>
+                        <td> <input type="range" min="7" max="25" value="25" step="1"> </td>
+                        <td> <input type="direccion" name="direccion"> </td>
+                        <td> <input style="text" name="alergico a"></td>
                     </tr>
                     <tr>
                     <td colspan="3"><hr size="1px" color="black"/><center><h1>Datos escolares:</h1></center><hr size="1px" color="black"/></td>
                     <td>Alergico a: <input style="text" name="alergico a"></td>
                     </tr>
                     <tr>
-                       <td>
-                            Ultimo grado:
-                            <select name="n1" id="na">
-                                <option value=""></option>
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                                <option value="6">6</option>
-                                <option value="7">7</option>
-                                <option value="8">8</option>
-                                <option value="9">9</option>
-                                <option value="10">10</option>
-                                <option value="11">11</option>
-                            </select> 
-                        </td>
-                        <td>
-                            Materia preferidas:
-                            <select name="n1" id="n1">
-                                <option value=""></option>
-                                <option value="Matematicas">Matematicas</option>
-                                <option value="Sociales">Sociales</option>
-                                <option value="Naturales">Naturales</option>
-                                <option value="Fisica">Fisica</option>
-                                <option value="Calculo">Calculo</option>
-                            </select>
-                        </td>
-                        <td>¿Ultimo promedio? <input type="Ultimo promedio" name="Ultimo promedio"></td>
+                     <td></td>
+
+                    </tr>
+                    <tr>
+                       <td>Ultimo grado:</td>
+                       <td>Materia preferidas </td>
+                    </tr>
+                         <tr>
+                                <td> <select name="n2" id="n2">
+                                    <option value=""></option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                </select> </td>
+
+                                 <td><select name="n3" id="n3">
+                                 <option value=""></option>
+                                 <option value="Matematicas">Matematicas</option>
+                                 <option value="Sociales">Sociales</option>
+                                 <option value="Naturales">Naturales</option>
+                                 <option value="Fisica">Fisica</option>
+                                 <option value="Calculo">Calculo</option>
+                                </select></td>
+                            </tr>
+                       <tr>
+                        <td>¿Ultimo promedio?</td>
+                       </tr>
+                       <tr>
+                         <td><input type="Ultimo promedio" name="Ultimo promedio"></td>
+                        </tr>
                         <td>Padece alguna enfermedad:</td>
                     </tr>
                     <tr>
@@ -105,8 +122,8 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>Nombre <input style="text" name="nombre"></td>
-                        <td>Apellido <input style="text" name="apellido"></td>
+                        <td>Nombres<input style="text" name="nombre"></td>
+                        <td>Apellidos<input style="text" name="apellido"></td>
                         <td> Parentezco:
                             <select name="n1" id="n1">
                                 <option value=""></option>
@@ -118,7 +135,7 @@
                                 <option value="Abuela">Abuela</option>
                             </select>
                         </td>
-                        <td>Cual? <input type="text" name="cual"></td>
+                        <td>¿Cual? <input type="text" name="cual"></td>
                     </tr>
                     <tr>
                         <td>Celular 1: <input style="number" name="celular 1"></td>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registro matricula</title>
+</head>
+<body>
+    <center>
+<div id="container">
+
+        <table cellspacing="0">
+        <tr><td colspan="4">
+   <header>  
+         <center>  
+            <h1>Registro matricula</h1>
+        </center>
+    </header>
+        <hr size="2px" color="black"/>
+    </header>
+    
+    <nav>
+        <center>
+            <h3>Datos personales</h3>
+        </center>
+        <hr size="2px" color="black"/>
+    </nav>
+    
+    <section>
+            
+        <article>
+        <center>    
+            
+                <form name="formulario" method="get" action="procesar.php">
+                    
+                    <tr>
+                        <td>Nombre:</td>
+                        <td>Apellido:</td>
+                        <td>Correo:</td>
+                        <td><big><strong>Datos medicos</strong></big><hr size="1px" color="black"/></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="nombre" maxlength="15"></td>
+                        <td><input type="text" name="apellido"></td>
+                        <td><input type="email" name="correo"></td>
+                        <td>
+                            Tipo de sangre:
+                                <select name="n1"  id="n1">
+                                    <option value=""></option>
+                                    <option value="A+">A+</option>
+                                    <option value="A-">A-</option>
+                                    <option value="O+">O+</option>
+                                    <option value="O-">O-</option>
+                                    <option value="B+">B+</option>
+                                    <option value="B-">B-</option>
+                                </select>
+                        </td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Fecha de nacimiento:</td>
+                        <td>Edad:</td>
+                        <td>Dirreccion:</td>
+                        <td>Alergico a:</td>
+                    </tr>
+                    <tr>
+                        <td><input type="date" name="fecha" id="fecha"></td>
+                        <td><input type="range" min="7" max="25"></td>
+                        <td><input type="direccion" name="direccion"></td>
+                        <td><input style="text" name="alergico a"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><hr size="1px" color="black"/><center><b>Datos escolares:</b></center><hr size="1px" color="black"/></td>
+                        <td>Alergico a: 
+                            <p>
+                            <input style="text" name="alergico a">
+                            </p>
+                        </td>
+                        
+                    </tr>
+                    <tr>
+                        <td colspan="3"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Ultimo grado:</td>
+                        <td>
+                            Materia preferidas:
+                           
+                        </td>
+                        <td>¿Ultimo promedio?</td>
+                        <td>Padece alguna enfermedad:</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select name="n1" id="na">
+                                <option value=""></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                            </select> 
+                        </td>
+                        <td>
+                            <select name="n1" id="n1">
+                                <option value=""></option>
+                                <option value="Matematicas">Matematicas</option>
+                                <option value="Sociales">Sociales</option>
+                                <option value="Naturales">Naturales</option>
+                                <option value="Fisica">Fisica</option>
+                                <option value="Calculo">Calculo</option>
+                            </select>
+                        </td>
+                        <td><input type="Ultimo promedio" name="Ultimo promedio"></td>
+                        <td><input type="checkbox">Si</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><hr size="1px" color="black"/><center><b>Datos acudiente</b></center><hr size="1px" color="black"/></td>
+                        <td>
+                            <p><input type="checkbox">No</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Nombre</td>
+                        <td>Apellido</td>
+                        <td> Parentezco:
+                           
+                        </td>
+                        <td>Cual?</td>
+                    </tr>
+                    <tr>
+                        <td> <input style="text" name="nombre"></td>
+                        <td><input style="text" name="apellido"></td>
+                        <td>
+                            <select name="n1" id="n1">
+                                <option value=""></option>
+                                <option value="Padre">Padre</option>
+                                <option value="Madre">Madre</option>
+                                <option value="Hermano">Hermano</option>
+                                <option value="Hermana">Hermana</option>
+                                <option value="Abuelo">Abuelo</option>
+                                <option value="Abuela">Abuela</option>
+                            </select>
+                        </td>
+                        <td><input type="text" name="cual"></td>
+                    </tr>
+                    <tr>
+                        <td>Celular 1:</td>
+                        <td>Celular 2:</td>
+                        <td></td>
+                        <td>Selecione deporte favorito:</td>
+                    </tr>
+                    <tr>
+                        <td><input style="number" name="celular 1"></td>
+                        <td><input style="number" name="celular 2"></td>
+                        <td></td>
+                        <td><input type="checkbox">Futbol</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"></td>
+                        <td><input type="checkbox">Beisball</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"></td>
+                        <td><input type="checkbox">Ciclismo</td>
+                    </tr>
+                </form>                   
+        
+            
+            </table>
+
+        </article>
+
+    </section>    
+
+</div>
+</center>
+</body>
+</html>
